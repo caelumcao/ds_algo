@@ -34,4 +34,4 @@ public:
 };
 // @lc code=end
 
-// todo optimal solution
+// todo optimize solution
