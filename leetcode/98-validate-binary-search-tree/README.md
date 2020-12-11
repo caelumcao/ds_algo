@@ -39,3 +39,6 @@ amazon | bloomberg | facebook | microsoft
 输出: false
 解释: 输入为: [5,1,4,null,null,3,6]。
      根节点的值为 5 ，但是其右子节点值为 4 。
+
+#### 思路
+中序遍历
