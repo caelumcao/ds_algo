@@ -23,6 +23,26 @@ static ListNode *createList(int values[], int len)
     return head;
 }
 
+static ListNode *createCycleList(int values[], int len, int cycleIndex)
+{
+    ListNode *head = nullptr;
+    ListNode *pre = nullptr;
+    ListNode *cycleNode = nullptr;
+    for (int i = 0; i < len; i++)
+    {
+        ListNode *node = new ListNode(values[i]);
+        if (i == 0)
+            head = node;
+        else
+            pre->next = node;
+        if (i == cycleIndex)
+            cycleNode = node;
+        pre = node;
+    }
+    pre->next = cycleNode;
+    return head;
+}
+
 static void destroyList(ListNode *head)
 {
     while (head)
