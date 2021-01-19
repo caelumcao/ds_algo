@@ -15,3 +15,16 @@
 - 142-linked-list-cycle-ii
 - 234-palindrome-linked-list
 - 138-copy-list-with-random-pointer
+
+#### 栈
+- 155-min-stack
+- 150-evaluate-reverse-polish-notation
+- 394-decode-string
+- 94-binary-tree-inorder-traversal
+- 133-clone-graph 待定
+- 200-number-of-islands 待定
+- 84-largest-rectangle-in-histogram
+
+#### 队列
+- 232-implement-queue-using-stacks
+- 542-01-matrix
